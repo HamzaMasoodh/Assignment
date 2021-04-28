@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="" method="POST" >
+        <label for="fname">First Name:</label><br>
+        <input type="text" name="fname" placeholder="Enter first name" required><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname" placeholder="Enter second name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password  :</label><br>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        <label>Gender:</label><br>
+        <label>Male</label>
+        <input type="radio" name="gender" value="male">
+        <label>Female</label>
+        <input type="radio" name="gender" value="female">
+        <br><br>
+        <label>Education:</label><br>
+        <input type="checkbox" name="education" value="fsc">
+        <label for="education">FSC</label>
+        <input type="checkbox" name="education2" value="BS">
+        <label for="education 2">BS</label>
+        <br><br>
+        <label>Subject</label><br>
+        <select name="subject">
+            <option value="html">HTML</option>
+            <option value="css" selected>CSS</option>
+            <option value="java">Java Script</option>
+        </select>
+        <br><br>
+        <label for="description">Description</label><br>
+        <br>
+        <textarea name="description" id="" cols="30" rows="5" placeholder="Describe yourself"></textarea>
+        <br><br>
+        <label for="color">Color</label><br>
+        <input type="color" name="color" value="color"><br><br>
+        <label for="datetime">Date and Time</label><br>
+        <input type="datetime-local" name="datetime" value="datetime"><br><br>
+        <label for="file">File</label><br>
+        <input type="file" name="file" value="Choose File"><br><br>
+        <label for="phnumber">Phone Number</label><br>
+        <input type="number" name="phnumber" placeholder="Enter Phone Number" value="phnumber"><br><br>
+        <label for="range">Range</label><br>
+        <input type="range" name="range" min="0" max="100"><br><br>
+        <input type="reset" value="Click To resest the form">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
